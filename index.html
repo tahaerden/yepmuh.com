@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html id="teha">
+<head lang="tr">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>YEP Mühendislik</title>
+	<link rel="shortcut icon" href="/favicon.png" type="image/png"> 
+	<link rel="icon" href="/favicon.png" type="image/png"> 
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- Nifty Modal -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/default.css" /> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/component.css" /> -->
+	<!-- Toastr -->
+	<link rel="stylesheet" type="text/css" href="css/toastr.css" />
+	<!-- Swipebox -->
+	<link rel="stylesheet" href="css/swipebox.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- <script src="js/niftyModal/modernizr.custom.js"></script> -->
+</head>
+
+<body class="slimscroll">
+	
+	<!-- <div class="modal fade" id="hakkimizdaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h2 class="modal-title" id="myModalLabel">Hakkımızda - Vizyon - Misyon</h2>
+				</div>
+				<div class="modal-body row">
+					<div class="col-md-10 col-md-offset-1">
+						<p>
+							2016 Ocağında kurulan YEP, hizmeti kaliteli vermenin yanı sıra hizmeti takvimi içinde koordine ve teslim etme ilkeleri ile kısa sürede çok sayıda kurum ve kuruluşa statik proje hizmeti vermiş ve tebrik toplamış genç bir yapıdır.
+							<br><br>
+							Genç yapılanmanın enerjisi ile tecrübe birikimini tek potada eriten ve hem işleyişini hemde hizmetlerini günün gereklerinin ötesinde şekillendiren YEP, kadrosu ve freelance çalışma ortakları ile birçok disiplinden geniş bir ekip ağına sahiptir.
+							<br><br>
+							YEP Mühendislik Mimarlık ismi disiplinler arası koordinasyon ve tamamlayıcı anlayış üzerine kuruludur. YEP Mühendislik Mimarlık, mühendislik hizmetlerini sadece emniyet üzerine kuran yaklaşımın tersine; Mühendislik etiği ve sorumluluğu gereği EMNİYETİ, milli serveti koruyacak vatandaşlık bilinci gereği EKONOMİYİ, sanata olan saygısı ve hayranlığı gereği ESTETİĞİ temel alan üçlü meslek kurgusuna sahiptir. 
+						</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button class="md-close" data-dismiss="modal">GERİ</button>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+	<!-- <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h2 class="modal-title" id="myModalLabel">Günün Sözü</h2>
+				</div>
+				<div class="modal-body row text-center">
+					<div class="col-md-12">
+						<blockquote class="blockquote-reverse">
+						<p>Çizmeyi konuşmaya tercih ederim. Çizim hızlıdır ve yalanlar için daha az yer bırakır.</p>
+							<footer>Le-Corbusier</footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button class="md-close" data-dismiss="modal">GERİ</button>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+	<div class="modal fade" id="projelerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h2 class="modal-title" id="myModalLabel">Referans Projeler</h2>
+				</div>
+				<div class="modal-body row text-center">
+					<div class="col-md-12">
+						<p>Yapım aşamasında</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<!-- <button type="button" class="btn btn-default" data-dismiss="modal">GERİ</button> -->
+					<button class="md-close" data-dismiss="modal">GERİ</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="kadroModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h2 class="modal-title" id="myModalLabel">Teknik Kadro</h2>
+				</div>
+				<div class="modal-body row">
+					<div class="col-md-6 text-center">
+						<div class="emp">
+							<h4>ATAKAN ODABAŞ</h4>
+							<p>
+								İnşaat Mühendisi
+								<br>
+								Karadeniz Teknik Üniversitesi
+							</p>
+							<p>Şirket Müdürü & Proje Koordinatörü</p>
+						</div>
+						<div class="emp">
+							<h4>EREN ÇAPÇIOĞLU</h4>
+							<p>
+								İnşaat Mühendisi
+								<br>
+								Karadeniz Teknik Üniversitesi
+							</p>
+							<p>Proje Mühendisi</p>
+						</div>
+						<div class="emp">
+							<h4>AHMET TOPSAKAL</h4>
+							<p>
+								İnşaat Teknikeri
+								<br>
+								<!-- Karadeniz Teknik Üniversitesi -->
+							</p>
+							<p>Teknik Ressam</p>
+						</div>
+					</div>
+					<div class="col-md-6 text-center">
+						<div class="emp">
+							<h4>KADİR KAAN ODABAŞ</h4>
+							<p>
+								İnşaat Mühendisi
+								<br>
+								Yıldız Teknik Üniversitesi
+							</p>
+							<p>Kurucu Ortak & Proje Mühendisi</p>
+						</div>
+						<div class="emp">
+							<h4>OKAY MUTLU</h4>
+							<p>
+								İnşaat Mühendisi
+								<br>
+								Karadeniz Teknik Üniversitesi
+							</p>
+							<p>Proje Mühendisi</p>
+						</div>
+						<div class="emp">
+							<h4>YUNUS EMRE CİM</h4>
+							<p>
+								İnşaat Teknikeri
+								<br>
+								<!-- Karadeniz Teknik Üniversitesi -->
+							</p>
+							<p>Teknik Ressam</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<!-- <button type="button" class="btn btn-default" data-dismiss="modal">GERİ</button> -->
+					<button class="md-close" data-dismiss="modal">GERİ</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div class="modal fade" id="iletisimModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h2 class="modal-title" id="myModalLabel">İletişim</h2>
+				</div>
+				<div class="modal-body row text-center">
+					<div class="col-md-6">
+						<h3>YEP Mühendislik Mimarlık Müşavirlik İnşaat Ticaret LTD. ŞTİ.</h3>
+						<p>
+							<br><br>
+							<strong>Adres: </strong>Cevizlidere cad. No: 58/4 Çankaya/ANKARA
+							<br><strong>Tel: </strong>0(312) 472 66 96
+							<br><strong>GSM: </strong>0(535) 377 84 41
+							<br><strong>E-Posta: </strong>info@yepmuh.com
+							<br><br>
+						</p>
+						<br>
+						<div class="google-maps">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1530.8054444573788!2d32.81658865824631!3d39.882953053067716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDUyJzU4LjYiTiAzMsKwNDknMDMuNyJF!5e0!3m2!1str!2str!4v1471364836993" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h2>İletişim Formu</h2>
+						<br>
+						<form name="iletisimForm" id="iletisimForm">
+							<div> 
+								<div class="form-group">
+									<input class="form-control" id="isim" name="isim" type="text" placeholder="Ad ve Soyad" minlength="3" required/>
+								</div>
+								<div class="form-group">
+									<input class="form-control" id="eposta" name="eposta" type="email" placeholder="E-posta" required/>
+								</div>
+								<div class="form-group">
+									<input class="form-control" id="telefon" name="telefon"  type="text" number="true" placeholder="Telefon" minlength="10" maxlength="10" required/>
+								</div>
+							</div>
+							<div>
+								<div class="form-group">
+									<textarea class="form-control" id="mesaj" name="mesaj" rows="4" placeholder="Mesajınız" minlength="10" required></textarea>
+								</div>
+							</div>
+
+							<button type="button" id="sendMsg2" class="md-close">GÖNDER</button>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<!-- <button type="button" class="btn btn-default" data-dismiss="modal">GERİ</button> -->
+					<button class="md-close" data-dismiss="modal">GERİ</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container main-container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<div class="box-static">
+					<div class="card" style="background:#58595b;">
+						<div class="front face bg-darkgray logo"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<!-- <div class="box" data-toggle="modal" data-target="#hakkimizdaModal">
+					<div class="card-vertical">
+						<div class="front face bg-green">
+							<i class="fa fa-info-circle"></i>
+							<h3>Hakkımızda - Vizyon - Misyon</h3>
+						</div>
+						<div class="back face bg-darkgray">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x color-green"></i>
+								<i class="fa fa-search fa-stack-1x"></i>
+							</span>
+						</div>
+					</div>
+				</div> -->
+				<div class="box text-box slimscroll">
+					<p>
+						2016 Ocağında kurulan YEP, hizmeti kaliteli vermenin yanı sıra hizmeti takvimi içinde koordine ve teslim etme ilkeleri ile kısa sürede çok sayıda kurum ve kuruluşa statik proje hizmeti vermiş ve tebrik toplamış genç bir yapıdır.
+						<br><br>
+						Genç yapılanmanın enerjisi ile tecrübe birikimini tek potada eriten ve hem işleyişini hemde hizmetlerini günün gereklerinin ötesinde şekillendiren YEP, kadrosu ve freelance çalışma ortakları ile birçok disiplinden geniş bir ekip ağına sahiptir.
+						<br><br>
+						YEP Mühendislik Mimarlık ismi disiplinler arası koordinasyon ve tamamlayıcı anlayış üzerine kuruludur. YEP Mühendislik Mimarlık, mühendislik hizmetlerini sadece emniyet üzerine kuran yaklaşımın tersine; Mühendislik etiği ve sorumluluğu gereği EMNİYETİ, milli serveti koruyacak vatandaşlık bilinci gereği EKONOMİYİ, sanata olan saygısı ve hayranlığı gereği ESTETİĞİ temel alan üçlü meslek kurgusuna sahiptir. 
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-xs-6">
+				<!-- <div class="box" data-toggle="modal" data-target="#quoteModal">
+					<div class="card">
+						<div class="front face bg-green">
+							<i class="fa fa-quote-left"></i>
+							<h3>Günün Sözü</h3>
+						</div>
+						<div class="back face bg-darkgray">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x color-green"></i>
+								<i class="fa fa-search fa-stack-1x"></i>
+							</span>
+						</div>
+					</div>
+				</div> -->
+				<div class="box text-box slimscroll">
+					<p>"Çizmeyi konuşmaya tercih ederim. Çizim hızlıdır ve yalanlar için daha az yer bırakır."<br><span style="float:right;">-Le Corbusier</span></p>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="col-md-3 col-xs-6">
+
+
+
+				<!-- <div class="box" data-toggle="modal" data-target="#projelerModal"> -->
+				<a href="img/projeler/1/a.jpg" class="swipebox" title="Aydın Devlet Üniversitesi Hastanesi">
+					<div class="box">
+						<div class="card-vertical">
+							<div class="front face bg-green">
+								<i class="fa fa-pencil"></i>
+								<h3>Referans Projeler</h3>
+							</div>
+							<div class="back face bg-darkgray">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x color-green"></i>
+									<i class="fa fa-search fa-stack-1x"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="img/projeler/1/b.jpg" class="swipebox" title="Aydın Devlet Üniversitesi Hastanesi"></a>
+				<a href="img/projeler/2/a.jpg" class="swipebox" title="Sivas Zara Devlet Hastanesi"></a>
+				<a href="img/projeler/2/b.jpg" class="swipebox" title="Sivas Zara Devlet Hastanesi"></a>
+				<a href="img/projeler/3/a.jpg" class="swipebox" title="Namık Kemal Üniversitesi Merkezi Derslikler"></a>
+				<a href="img/projeler/3/b.jpg" class="swipebox" title="Namık Kemal Üniversitesi Merkezi Derslikler"></a>
+				<a href="img/projeler/4/a.jpg" class="swipebox" title="Hayvan Pazarı"></a>
+				<a href="img/projeler/4/b.jpg" class="swipebox" title="Hayvan Pazarı"></a>
+				<a href="img/projeler/5/a.jpg" class="swipebox" title="Niğde Aile ve Sosyal Politikalar İl Müdürlüğü"></a>
+				<a href="img/projeler/5/b.jpg" class="swipebox" title="Niğde Aile ve Sosyal Politikalar İl Müdürlüğü"></a>
+				<a href="img/projeler/6/a.jpg" class="swipebox" title="Balıkesir Dursunbey Devlet Hastanesi"></a>
+				<a href="img/projeler/6/b.jpg" class="swipebox" title="Balıkesir Dursunbey Devlet Hastanesi"></a>
+				<a href="img/projeler/7/a.jpg" class="swipebox" title="İstanbul ASAL Bölge Başkanlığı"></a>
+				<a href="img/projeler/8/a.jpg" class="swipebox" title="Tip Askerlik Şubesi Kompleksi"></a>
+				<a href="img/projeler/8/b.jpg" class="swipebox" title="Tip Askerlik Şubesi Kompleksi"></a>
+				<a href="img/projeler/9/a.jpg" class="swipebox" title="Ege Ordusu Komutanlığı Konferans Salonu ve Ek Karargah Binası"></a>
+				<a href="img/projeler/9/b.jpg" class="swipebox" title="Ege Ordusu Komutanlığı Konferans Salonu ve Ek Karargah Binası"></a>
+				<a href="img/projeler/10/a.jpg" class="swipebox" title="Afyonkarahisar İhsaniye Belediye Binası"></a>
+				<a href="img/projeler/11/a.jpg" class="swipebox" title="Kırıkkale Keskin Müftülük Binası"></a>
+				<a href="img/projeler/12/a.jpg" class="swipebox" title="Kütahya Müftülük Binası"></a>
+
+
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="box" data-toggle="modal" data-target="#kadroModal">
+					<div class="card">
+						<div class="front face bg-green">
+							<i class="fa fa-users"></i>
+							<h3>Teknik Kadro</h3>
+						</div>
+						<div class="back face bg-darkgray">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x color-green"></i>
+								<i class="fa fa-search fa-stack-1x"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-6">
+				<div class="box" data-toggle="modal" data-target="#iletisimModal">
+					<div class="card-vertical">
+						<div class="front face bg-green">
+							<!-- <i class="fa fa-info-circle"></i> -->
+							<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+							<h3>İletişim</h3>
+						</div>
+						<div class="back face bg-darkgray">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x color-green"></i>
+								<i class="fa fa-search fa-stack-1x"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="md-overlay"></div>
+
+
+	<!-- <script src="js/jquery-3.1.0.min.js"></script> -->
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Nifty Modals -->
+	<!-- <script src="js/niftyModal/classie.js"></script> -->
+	<!-- <script src="js/niftyModal/modalEffects.js"></script> -->
+	<!-- Jquery Validate -->
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.custom.messages.js"></script>
+	<!-- Toastr -->
+	<script src="js/toastr.js"></script>
+	<!-- Swipebox -->
+	<script src="js/jquery.swipebox.js"></script>
+
+	<script type="text/javascript">
+		$('.swipebox').swipebox({
+		// beforeOpen: function() {}, // called before opening
+		// afterOpen:  function() {
+			removeBarsOnMobile: false,
+			hideBarsDelay : 0,
+		// 	setInterval(function(){ console.log("eyo"); }, 1000);
+		// }, // called after opening
+		// afterClose: function() {}, // called after closing
+		loopAtEnd: true // true will return to the first image after the last image is reached
+	});
+</script>
+
+<script>
+	setInterval(function(){
+		if($.swipebox.isOpen){
+			document.getElementById("swipebox-next").click();
+		}
+	}, 5000);
+</script>
+
+
+
+<script>
+	var element = document.getElementById('teha');
+
+	var drawLines = function(event) {
+		var x = event.pageX;
+		var y = event.pageY;
+
+		var straightLine = element.querySelector('.straightLine');
+		var hrLine = element.querySelector('.hrLine');
+
+		var slTrans = 'translate(' + x + 'px, 0px)';
+		var hrTrans = 'translate(0px, ' + y + 'px)';
+		if(!straightLine) {
+			straightLine = document.createElement('div');
+			straightLine.classList.add('straightLine');
+			straightLine.style.height = "100%";
+			straightLine.style.width = '2px';
+			element.appendChild(straightLine);
+		}
+		straightLine.style.transform = slTrans;
+
+		if(!hrLine) {
+			hrLine = document.createElement('div');
+			hrLine.style.height = "2px";
+			hrLine.classList.add('hrLine');
+			hrLine.style.width = '100%';
+			element.appendChild(hrLine);
+		}
+		hrLine.style.transform = hrTrans;
+	};
+
+	element.addEventListener('mousemove', function(event) {
+		drawLines(event);
+	});
+
+	element.addEventListener('mousedown', function(event) {
+		drawLines(event);   
+	});
+
+	element.addEventListener('mouseup', function(event) {
+		drawLines(event);
+	});
+
+	element.addEventListener('mouseout', function(event) {
+		drawLines(event);
+	});
+</script>
+
+
+<script>
+	var form = $("#iletisimForm");
+	form.validate({
+		rules: {
+		},
+		highlight: function(element) {
+			$(element).closest('.form-group').addClass('has-error');
+		},
+		unhighlight: function(element) {
+			$(element).closest('.form-group').removeClass('has-error');
+		},
+		errorElement: 'span',
+		errorClass: 'help-block',
+		errorPlacement: function(error, element) {
+			if(element.parent('.input-group').length) {
+				error.insertAfter(element.parent());
+			} else {
+				error.insertAfter(element);
+			}
+		}
+	});
+</script>
+<!-- Ajax code -->
+<script>
+
+	$("#sendMsg2").click(function () {
+
+		var form = $("#iletisimForm");
+		if(form.valid()){
+			$.ajax({
+				url: "js/mailform/form_iletisim.php",
+				data: {
+					isim: $('#isim').val(),
+					eposta: $('#eposta').val(),
+					telefon: $('#telefon').val(),
+					mesaj: $('#mesaj').val()
+				},
+				type: "POST"
+			})
+			.done(function (ajaxData) {
+				if(ajaxData == 1) {
+					toastr.success("Mesajınız gönderildi.");
+					document.getElementById("iletisimForm").reset();
+				}else{
+					toastr.error(ajaxData);
+				}
+			}).fail(function (jqXHR, textStatus, errorThrown) {
+				toastr.error(errorThrown);
+			});
+		}
+	});
+
+</script>
+
+</body>
+</html>
