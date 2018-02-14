@@ -1,6 +1,10 @@
 html{
   cursor: crosshair;
 }
+.swipeboxImage{
+  height: 150px;
+  width: 100%
+}
 .slimscroll::-webkit-scrollbar{
   width: 6px;
   height: 6px;
@@ -17,7 +21,7 @@ html{
 body{
 	background: #191919;
 	color: white;
-	font-family: Calibri, Arial, sans-serif;
+	font-family: Helvetica, Calibri, Arial, sans-serif;
   letter-spacing: 2px;
 }
 a{
@@ -115,7 +119,7 @@ button {
   padding: 0.6em 1.2em;
   background: #c0392b;
   color: #fff;
-  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-family: Helvetica, 'Lato', Calibri, Arial, sans-serif;
   font-size: 1em;
   letter-spacing: 1px;
   cursor: pointer;
@@ -205,6 +209,6 @@ blockquote .small, blockquote footer, blockquote small {
 .text-box{
   cursor: crosshair;
   overflow:auto;
-  font-family: Arial, "Calibri", sans-serif;
+  font-family: Helvetica, Arial, "Calibri", sans-serif;
   font-size: 20px;
 }
