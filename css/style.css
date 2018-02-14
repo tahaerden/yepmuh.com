@@ -40,6 +40,9 @@ a{
   z-index: 1;
   cursor: pointer;
 }
+.about{
+  height: 600px;
+}
 .face {
   position: absolute;
   padding: 20px;
@@ -85,13 +88,13 @@ a{
 .bg-darkgray{
 	background: #404040;
 }
-.bg-green{	
+.bg-green{
 	background: #36ba8d;
 }
 .color-darkgray{
 	color: #404040;
 }
-.color-green{	
+.color-green{
 	color: #36ba8d;
 }
 .front .fa, .front .glyphicon{
@@ -162,11 +165,11 @@ p{
 // }
 .logo{
   background-color: red;
-  background: url(../img/logo.png) no-repeat; 
+  background: url(../img/logo.png) no-repeat;
     background-size:     cover;
-  background-size:  340px 100%; 
+  background-size:  340px 100%;
     background-repeat:   no-repeat;
-    background-position: center center; 
+    background-position: center center;
 }
 .modal{
   top: 10%;
@@ -203,5 +206,5 @@ blockquote .small, blockquote footer, blockquote small {
   cursor: crosshair;
   overflow:auto;
   font-family: Arial, "Calibri", sans-serif;
-  font-size: 26px;
+  font-size: 20px;
 }
