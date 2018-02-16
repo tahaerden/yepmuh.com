@@ -212,3 +212,14 @@ blockquote .small, blockquote footer, blockquote small {
   font-family: Helvetica, Arial, "Calibri", sans-serif;
   font-size: 20px;
 }
+.imageRows{
+  height: auto;
+}
+.imageRows img{
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 767px) {
+  .imageRows{
+    height: 200px;
+  }
+}
